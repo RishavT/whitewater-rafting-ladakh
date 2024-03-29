@@ -11,6 +11,8 @@
 	<header class="header"><a href="https://www.wetnwildexplorations.com/">Unforgettable River Rafting in Ladakh</a></header>
     <nav class="nav">
 	    <a href="https://www.wetnwildexplorations.com/">Click here to book your river rafting trip!</a><br/>
+	    <a href="fixed-departures.html">Fixed Departures</a><br/>
+	    <a href="about.html">About Us</a><br/>
 	    <a href="contact.html">Contact</a>
     </nav>
     <main class="main">
@@ -46,5 +48,13 @@
 
     </main>
     <footer class="footer">© 2024 Wet n Wild Explorations - River Rafting Ladakh Adventures. All rights reserved.</footer>
+    <script>
+      function goToNew() {
+        if (confirm("this is an old website. Do you want to go to our new website?")) {
+          window.location.replace("https://www.wetnwildexplorations.com");
+        }
+      }
+      window.setTimeout(goToNew, 10000);
+    </script>
 </body>
 </html>
